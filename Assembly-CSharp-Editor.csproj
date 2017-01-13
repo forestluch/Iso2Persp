@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{70DFC7FE-22C4-42ED-2C02-331E51D358D5}</ProjectGuid>
+    <ProjectGuid>{F99864E2-4FE6-008B-45EC-840D66A1E327}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -45,8 +45,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\forestluch\JohnnyIso2Persp\Scripts\Editor\Iso2PrepspCamEditor.cs" />
-     <Compile Include="Assets\forestluch\JohnnyIso2Persp\Scripts\Editor\Iso2PrepspObjEditor.cs" />
+     <Compile Include="Assets\forestluch\Iso2Persp\Scripts\Editor\Iso2PrepspCamEditor.cs" />
+     <Compile Include="Assets\forestluch\Iso2Persp\Scripts\Editor\Iso2PrepspObjEditor.cs" />
+     <Compile Include="Assets\forestluch\RenderModel2Bitmap\Scripts\Editor\renderBitmapEditor.cs" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files (x86)/Unity5.4.0f3/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -89,7 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{452F0BAB-0DDA-98B1-C100-017DF4890E7A}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{6218915B-336C-CA2F-474B-AB5489B2FFB8}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

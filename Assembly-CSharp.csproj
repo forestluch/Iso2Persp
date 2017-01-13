@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{452F0BAB-0DDA-98B1-C100-017DF4890E7A}</ProjectGuid>
+    <ProjectGuid>{6218915B-336C-CA2F-474B-AB5489B2FFB8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,9 +45,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\forestluch\JohnnyIso2Persp\Scripts\Iso2PerspCam.cs" />
-     <Compile Include="Assets\forestluch\JohnnyIso2Persp\Scripts\Iso2PerspObj.cs" />
-     <Compile Include="Assets\forestluch\JohnnyRender\Scripts\renderBitmap.cs" />
+     <Compile Include="Assets\forestluch\Iso2Persp\Scripts\Iso2PerspCam.cs" />
+     <Compile Include="Assets\forestluch\Iso2Persp\Scripts\Iso2PerspObj.cs" />
+     <Compile Include="Assets\forestluch\RenderModel2Bitmap\Scripts\renderBitmap.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity5.4.0f3/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

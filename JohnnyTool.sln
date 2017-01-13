@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{13625FC7-FC73-9CA9-08B0-5ECA31F4F273}") = "JohnnyTool", "Assembly-CSharp.csproj", "{6218915B-336C-CA2F-474B-AB5489B2FFB8}"
+EndProject
+Project("{13625FC7-FC73-9CA9-08B0-5ECA31F4F273}") = "JohnnyTool", "Assembly-CSharp-Editor.csproj", "{F99864E2-4FE6-008B-45EC-840D66A1E327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6218915B-336C-CA2F-474B-AB5489B2FFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6218915B-336C-CA2F-474B-AB5489B2FFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6218915B-336C-CA2F-474B-AB5489B2FFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6218915B-336C-CA2F-474B-AB5489B2FFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F99864E2-4FE6-008B-45EC-840D66A1E327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99864E2-4FE6-008B-45EC-840D66A1E327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99864E2-4FE6-008B-45EC-840D66A1E327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99864E2-4FE6-008B-45EC-840D66A1E327}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
