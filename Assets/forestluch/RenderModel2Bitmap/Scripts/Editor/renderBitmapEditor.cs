@@ -6,9 +6,11 @@ public class renderBitmapEditor : Editor {
 	renderBitmap rdb;
 	void OnEnable(){
 		rdb = (renderBitmap)target;
+
 	}
 
 	public override void OnInspectorGUI(){
+		#if UNITY_STANDALONE
 		EditorGUILayout.HelpBox ("This script help you render the 3D model without usina any pro-3D modeling application such as 3DsMax or Maya.\n" +
 			"All you have to do is pick the camera which you want and set the render bitmap width resolution (the height will be calucate automatical) than PRESS the Render Bitmap button.\n" +
 			"Enjoy, have fun :D", MessageType.Info);
@@ -35,5 +37,9 @@ public class renderBitmapEditor : Editor {
 				EditorApplication.isPlaying = true;
 			}
 		}
+		#else
+		EditorGUILayout.HelpBox ("Please set platform to standalone.",MessageType.Error);
+		#endif
+
 	}
 }

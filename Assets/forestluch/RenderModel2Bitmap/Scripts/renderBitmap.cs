@@ -3,7 +3,7 @@ using System.Collections;
 using System.IO;
 
 public class renderBitmap : MonoBehaviour {
-
+	#if UNITY_STANDALONE
 	Texture2D renderTex2T2d;
 	public Camera camera;
 	public	int widthResolution = 1024;
@@ -80,4 +80,5 @@ public class renderBitmap : MonoBehaviour {
 		string windowRect;
 		windowRect = GUI.TextField (new Rect (Screen.width/2 - 100, 20, 200, 20),"Press button on inspector or keyboard A button to render bitmap",20);
 	}
+	#endif
 }
